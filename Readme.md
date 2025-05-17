@@ -37,7 +37,8 @@ Demonstrar um processo ETL simples utilizando **Python e Pandas**, preparando os
 ```
 etl-python-csv/
 │── data/
-│   ├── dados.csv  # Arquivo original
+│   ├── dados_criados.csv
+|   |
 │   ├── dados_transformados.csv  # Arquivo gerado
 │── src/
 │   ├── etl_script.py  # Código ETL
@@ -58,7 +59,7 @@ etl-python-csv/
 Sugestões e melhorias são bem-vindas! Abra uma issue ou envie um pull request.
 
 
-Este é o 1° de 7 projetos feitos para o portfolio, então sinta-se livre para contribuir. Algumas formas de contribuição além do seu exemplo de Profile README, é inserir outros utilitários na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils), ou melhorar a página de pesquisa dos READMEs fazendo modificações nos arquivos da pasta [`docs`](https://github.com/). <br>
+Este é o 1° de 7 projetos feitos para o portfolio, então sinta-se livre para contribuir. Algumas formas de contribuição além do seu exemplo de Profile README, é inserir outros utilitários na pasta [`Repositorio`](https://github.com/MarcosSoares1/ETL_Python_csv)), ou melhorar a página de pesquisa dos READMEs fazendo modificações nos arquivos da pasta [`README`]([https://github.com/](https://github.com/MarcosSoares1/ETL_Python_csv/edit/main/Readme.md). <br>
  Além disso, você também pode contribuir:
  
 ⚠️ Resolvendo, respondendo ou indicando **issues**

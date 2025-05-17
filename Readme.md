@@ -53,5 +53,16 @@ etl-python-csv/
    ```
 2. Execute o script ou o notebook.
 
+
 ### 🤝 **Contribuições**
 Sugestões e melhorias são bem-vindas! Abra uma issue ou envie um pull request.
+
+
+Este é o 1° de 7 projetos feitos para o portfolio, então sinta-se livre para contribuir. Algumas formas de contribuição além do seu exemplo de Profile README, é inserir outros utilitários na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils), ou melhorar a página de pesquisa dos READMEs fazendo modificações nos arquivos da pasta [`docs`](https://github.com/). <br>
+ Além disso, você também pode contribuir:
+ 
+⚠️ Resolvendo, respondendo ou indicando **issues**
+
+⭐ Adicionando aos favoritos (**star**) 
+
+### Membros da comunidade que já contribuiram:

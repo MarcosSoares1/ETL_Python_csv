@@ -24,9 +24,9 @@ Demonstrar um processo ETL simples utilizando **Python e Pandas**, preparando os
    df = pd.read_csv("dados.csv")
    ```
 3️⃣ **Limpeza e transformação dos dados**  
-   - Remover valores nulos  
-   - Renomear colunas  
-   - Criar novas colunas derivadas  
+   - Remover valores nulos
+   - Calcular Total Vendas
+   - Criar novas colunas derivadas
 
 4️⃣ **Exportação para um novo arquivo CSV**  
    ```python
@@ -38,13 +38,9 @@ Demonstrar um processo ETL simples utilizando **Python e Pandas**, preparando os
 etl-python-csv/
 │── data/
 │   ├── dados_criados.csv
-|   |
-│   ├── dados_transformados.csv  # Arquivo gerado
-│── src/
-│   ├── etl_script.py  # Código ETL
-│── notebooks/
-│   ├── etl_notebook.ipynb  # Código detalhado no Jupyter
-│── README.md  # Descrição do projeto
+|   ├── Normalizando.py
+│   ├── dados_transformados.csv  
+│── README.md  
 ```
 
 ### 🔗 **Como Executar**
@@ -52,7 +48,7 @@ etl-python-csv/
    ```bash
    git clone https://github.com/seu-usuario/etl-python-csv.git
    ```
-2. Execute o script ou o notebook.
+2. Execute o script.
 
 
 ### 🤝 **Contribuições**

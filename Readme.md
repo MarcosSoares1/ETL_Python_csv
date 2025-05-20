@@ -20,7 +20,7 @@ Demonstrar um processo ETL simples utilizando **Python e Pandas**, preparando os
 2️⃣ **Leitura do arquivo CSV**  
    ```python
    import pandas as pd
-   df = pd.read_csv("dados.csv")
+   df = pd.read_csv("dados_criados.csv")
    ```
 3️⃣ **Limpeza e transformação dos dados**  
    - Remover valores nulos
@@ -42,12 +42,12 @@ Demonstrar um processo ETL simples utilizando **Python e Pandas**, preparando os
 
       df["Quantidade"] = df["Quantidade"].fillna(df["Quantidade"].median())
 
-      df["Desconto"] = df["Desconto"].fillna(0)
+      df["(%)Desconto"] = df["(%)Desconto"].fillna(0)
 
 
       # Calcular o total de vendas
 
-      df["Total"] = df["Preco"] * df["Quantidade"] * (1 - df["Desconto"] / 100)
+      df["Total"] = df["Preco"] * df["Quantidade"] * (1 - df["(%)Desconto"] / 100)
 
 
       df["Total"] = df["Total"].apply(lambda x: f"R$ {x:,.2f}")
@@ -77,8 +77,7 @@ etl-python-csv/
 │── data/
 │   ├── dados_criados.csv
 │── scripts/
-|   ├── main.py
-|   ├── Normalizando.py
+|   ├── Principal.py
 │── data/
 │   ├── dados_transformados.csv  
 │── README.md  

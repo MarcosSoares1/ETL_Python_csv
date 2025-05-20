@@ -6,10 +6,10 @@ df = pd.read_csv("dados_criados.csv")
 # Preencher valores ausentes
 df["Preco"] = df["Preco"].fillna(df["Preco"].median())
 df["Quantidade"] = df["Quantidade"].fillna(df["Quantidade"].median())
-df["Desconto"] = df["Desconto"].fillna(0)
+df["(%)Desconto"] = df["(%)Desconto"].fillna(0)
 
 # Calcular o total de vendas
-df["Total"] = df["Preco"] * df["Quantidade"] * (1 - df["Desconto"] / 100)
+df["Total"] = df["Preco"] * df["Quantidade"] * (1 - df["(%)Desconto"] / 100)
 
 df["Total"] = df["Total"].apply(lambda x: f"R$ {x:,.2f}")
 # Salvar os dados tratados em um novo arquivo CSV

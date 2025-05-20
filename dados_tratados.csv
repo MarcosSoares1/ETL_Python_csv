@@ -1,4 +1,4 @@
-ID,Data,Produto,Categoria,Preco,Quantidade,Desconto,Regiao,Total
+ID,Data,Produto,Categoria,Preco,Quantidade,(%)Desconto,Regiao,Total
 1,2024-01-01,Camisa,Eletronicos,61.16,5.0,8.99,Leste,R$ 278.31
 2,2024-01-02,Mamba-Negra,Eletronicos,536.04,18.0,9.3,Leste,"R$ 8,751.39"
 3,2024-01-03,Maca,Alimentos,545.23,10.0,11.92,Oeste,"R$ 4,802.39"

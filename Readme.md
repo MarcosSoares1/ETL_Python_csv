@@ -1,5 +1,4 @@
-### 📖 **Descrição do README**
-Um bom README deve ser informativo e estruturado. Aqui está um modelo detalhado:
+### 📖 **README**
 
 #### 🏆 **ETL Simples com Python e Pandas**
 Este projeto implementa um pipeline ETL básico, onde extraímos dados de um arquivo CSV, realizamos transformações para limpeza e agregação de dados, e carregamos os dados tratados em um novo CSV.
@@ -98,7 +97,4 @@ Sugestões e melhorias são bem-vindas! Abra uma issue ou envie um pull request.
 Este é o 1° de 7 projetos para o portfolio, então sinta-se livre para contribuir. Algumas formas de contribuição além do seu exemplo de Profile README, é inserir outros utilitários na pasta [`Repositorio`](https://github.com/MarcosSoares1/ETL_Python_csv)), ou melhorar a página de pesquisa dos READMEs fazendo modificações nos arquivos da pasta [`README`]([https://github.com/](https://github.com/MarcosSoares1/ETL_Python_csv/edit/main/Readme.md). <br>
  Além disso, você também pode contribuir:
  
-⚠️ Resolvendo, respondendo ou indicando **issues**
-
-⭐ Adicionando aos favoritos (**star**) 
 
